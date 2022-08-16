@@ -1,0 +1,33 @@
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  #AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+  
+  #RewriteEngine On
+  #RewriteCond %{REQUEST_FILENAME} !-f
+  #RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+  RewriteRule ^home$ / [L]
+
+  RewriteRule ^home$ index.html [L]
+  
+  RewriteRule ^title-fraud$ title-fraud.html [L]
+  
+  RewriteRule ^pricing$ pricing.php [L]
+  
+  RewriteRule ^5-star$ 5-star.html [L]
+  
+  RewriteRule ^contact$ contact.html [L]
+  
+  RewriteRule ^thank_you/([0-9A-Za-z]+)$ thank_you.php/([0-9A-Za-z]+) [L]
+  
+  RewriteRule ^checkout/([0-9A-Za-z=]+)$ checkout.php/([0-9A-Za-z=]+) [L]
+  
+  RewriteRule ^payment_form/MTM=$ payment_form.php/MTM= [L]
+  RewriteRule ^payment_form/MTQz$ payment_form.php/MTQz [L]
+  RewriteRule ^payment_form/NTAw$ payment_form.php/NTAw [L]
+
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

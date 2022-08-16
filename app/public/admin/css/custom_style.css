@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Mar, 2022, 10:58:43 AM
+    Author     : Kirti Vijay
+*/
+
+.card-blue{
+    border-color: #002868 !important;
+}
+.bg-blue{
+    background-color: #002868 !important;   
+    border-color: #002868 !important;   
+}
+.text-blue{
+    color: #002868 !important;
+}
+.page-link{
+    color: #002868 !important;
+}
+.paginate_button.page-item.active a, .page-item.active .page-link{
+    background-color: #002868 !important;
+    border-color: #002868 !important;
+    color: white !important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before{
+    background-color: #002868 !important;
+}
+.sidebar-dark-warning .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: #002868 !important;
+    color: white !important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #002868 !important;
+    border-color: #002868 !important;
+    color: white !important;
+}
+.card-blue:not(.card-outline)>.card-header{
+    background-color: #002868 !important;
+    border-color: #002868 !important;
+}
+.btn-blue{
+    background-color: #002868 !important;
+    border-color: #002868 !important;
+}

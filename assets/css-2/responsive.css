@@ -1,0 +1,108 @@
+@media (min-width: 992px) {
+	.mobile-menu{
+		display: none;
+	}
+	.menu ul{
+		display: block !important;
+	}
+}
+@media (max-width: 991px) {
+	.logo {
+		float: left;
+	}
+	.mobile-menu {
+		overflow: hidden;
+		float: right;
+		color: #fff;
+		border: 2px solid #fff;
+		cursor: pointer;
+		line-height: 1;
+		padding: 5px 9px;
+	}
+	.header.sticky .mobile-menu {
+		color: #333;
+		border-color: #333;
+	}
+	.menu li {
+		display: inherit;
+	}
+	.menu {
+		text-align: left;
+	}
+	.menu ul {
+		background: #333;
+		display: none;
+	}
+	.header.sticky .menu ul {
+		background: #fff;
+	}
+	.menu li a {
+		padding: 6px 18px;
+		font-size: 14px;
+	}
+	.about-info {
+		margin-top: 30px;
+	}
+	.skills-info {
+		margin-top: 30px;
+	}
+	.contact-info {
+		margin-top: 30px;
+	}
+	 
+}
+@media (max-width: 767px) {
+	.hero-caption {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+	.feature-area, .counter-area, .services-area, .portfolio-area, .pricing-area, .team-area, .blog-area{
+		padding-top: 70px;
+		padding-bottom: 40px;
+	}
+	.about-area, .skills-area, .testimonial-area, .contact-area{
+		padding: 70px 0px;
+	}
+ 
+}
+@media (max-width: 576px) {
+	.hero-caption {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.hero-caption h2 {
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 6px;
+		margin-bottom: 10px;
+	}
+	.feature-area, .counter-area, .services-area, .portfolio-area, .pricing-area, .team-area, .blog-area{
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	.about-area, .skills-area, .testimonial-area, .contact-area{
+		padding: 50px 0px;
+	}
+	.section-title h2 {
+		font-size: 20px;
+	}
+	.section-title-divider {
+		margin: 6px auto;
+	}
+	.about-info h2 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+ 
+}
+@media (max-width: 360px) {
+	.hero-caption h2 {
+		font-size: 26px;
+	}
+	.testimonial-single {
+		padding: 10px;
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+ 
+}

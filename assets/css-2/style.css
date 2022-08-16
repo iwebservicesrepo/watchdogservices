@@ -1,0 +1,241 @@
+
+/*
+ * Pricing
+*/
+.pricing-single {
+    text-align: center;
+    background: #fff;
+    padding: 30px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0px 0px 10px #ccc3;
+}
+.pricing-single h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.pricing-single h2 {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #ff7a7a;
+}
+.pricing-single h2 sup {
+    font-size: 35px;
+}
+.pricing-single h2 span {
+    font-size: 20px;
+    color: #333;
+}
+.popular {
+    position: absolute;
+    top: 22px;
+    right: -40px;
+    padding: 10px 46px;
+    background: #ff7a7a;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transform: rotate(45deg);
+}
+.pricing-single ul li {
+    line-height: 45px;
+    font-size: 14px;
+    border-bottom: 1px solid #cccccc52;
+}
+.pricing-single ul li:last-child{
+    border-bottom: none;
+}
+.pricing-btn a {
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+/*
+ * Contact Area
+*/
+.contact-form input {
+    width: 100%;
+    border: 1px solid #F5FBF9;
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.contact-form input:focus{
+    border-color: #ff7a7a;
+}
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #F5FBF9;
+    margin-bottom: 20px;
+    padding: 18px 20px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    height: 150px;
+}
+.contact-form textarea:focus{
+    border-color: #ff7a7a;
+}
+.contact-form button {
+    border: none;
+    font-weight: 500;
+}
+.contact-info-single {
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.contact-info-single .icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    background: #ff7a7a;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 13px;
+}
+.contact-info-single .cont {
+    overflow: hidden;
+    padding-top: 6px;
+}
+.contact-info-single .cont span{
+    display: block;
+}
+/*
+ * Footer
+*/
+.footer {
+    background: #232a34;
+    color: #ddd;
+}
+.footer-single h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.footer-single .footer-social{
+    margin-top: 20px;
+}
+.footer-social span {
+    display: inline-block;
+    margin: 2px;
+}
+.footer-single .footer-social span a {
+    display: inline-block;
+}
+.footer-single .footer-social span a i {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: #5274BB;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+}
+.footer-single .footer-social span a i.fa-twitter {
+    background: #1DA1F2;
+}
+.footer-single .footer-social span a i.fa-instagram {
+    background: #E14521;
+}
+.footer-single .footer-social span a i.fa-linkedin{
+    background: #0077B5;
+}
+.footer-single h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.footer-single h3::before {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #494f55;
+    bottom: 0;
+}
+.footer-single h3::after {
+    content: "";
+    background: #ff7a7a;
+    width: 40px;
+    height: 2px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer-single ul li {
+    line-height: 28px;
+}
+.footer-single ul li a{
+    color: #ddd;
+    font-size: 14px;
+}
+.footer-single ul li a i{
+    padding-right: 5px;
+}
+.footer-single ul li a:hover{
+    color: #fff;
+}
+.subscribe-form {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    position: relative;
+}
+.subscribe-form input {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 0px 20px;
+}
+.subscribe-form button {
+    background: #ff7a7a;
+    height: 50px;
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px 26px;
+}
+.footer-bottom {
+    border-top: 1px solid #484646;
+}
+.copyright-text {
+    text-align: center;
+    font-size: 14px;
+}
+.copyright-text a{
+    color: #fff;
+}
+/** payment form **/
+.payment-form-single {
+    background: #fff;
+    padding: 30px 0px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0px 0px 10px #ccc3;
+}
