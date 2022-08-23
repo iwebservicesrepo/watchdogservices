@@ -8,6 +8,16 @@ include './db_connection.php';
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Watch Dog - Pricing</title>
+        <!-- Google tag (gtag.js) --> 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-06CPE042R7"></script> 
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-06CPE042R7');
+        </script>
         <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="16x16">
         <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="18x18">
         <link rel="icon" href="assets/img/icon.png" type="image/gif" sizes="20x20">
